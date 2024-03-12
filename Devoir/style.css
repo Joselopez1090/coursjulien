@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    /* Styles pour l'onglet survolé par la souris */
+    background-color: #ee0c0c;
+    color: #333;
+    /* Autres styles au survol */
+}
+
+header nav ul li a.active {
+    /* Styles pour l'onglet actif */
+    font-weight: bold;
+    /* Autres styles pour l'onglet actif */
+}
